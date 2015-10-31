@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000"
+    android:orientation="horizontal"
+    android:padding="1.0dip" >
+
+    <LinearLayout
+        android:id="@+id/videoinfo_single_land_leftLL"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="4.0dip"
+        android:layout_weight="1.0"
+        android:background="#00000000"
+        android:orientation="vertical"
+        android:padding="0.0dip" >
+
+        <RelativeLayout
+            android:id="@+id/videoinfo_single_landleft_thumbpanelRL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000" >
+
+            <ImageView
+                android:id="@+id/videoinfo_single_landleft_thumbIV"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:padding="0.0dip"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/videoinfo_single_landleft_playiconIV"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_play" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/videoinfo_single_landleft_timeTV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:padding="10.0dip"
+            android:text="2013-4-01 11:20"
+            android:textColor="#ff444444"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/videoinfo_single_land_rightLL"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="4.0dip"
+        android:layout_weight="1.0"
+        android:background="#00000000"
+        android:orientation="vertical"
+        android:padding="0.0dip" >
+
+        <RelativeLayout
+            android:id="@+id/videoinfo_single_landright_thumbpanelRL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000" >
+
+            <ImageView
+                android:id="@+id/videoinfo_single_landright_thumbIV"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:padding="0.0dip"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/videoinfo_single_landright_playiconIV"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_play" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/videoinfo_single_landright_timeTV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:padding="10.0dip"
+            android:text="2013-4-01 11:20"
+            android:textColor="#ff444444"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+</LinearLayout>
