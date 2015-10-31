@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="10.0dip" />
+    <solid android:color="#99d3d5d8" />
+</shape><!-- From: file:/Users/coollive/devspace/coollive/app/src/main/res/drawable/roundrect_gray.xml -->

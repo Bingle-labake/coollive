@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffeeeeee"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/topbarbg2" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="0.0dip"
+                android:paddingTop="0.0dip"
+                android:text="@string/ui_register_text"
+                android:textColor="#ff043f76"
+                android:textSize="25.0dip"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@id/topback_IV"
+                android:layout_width="60.0dip"
+                android:layout_height="35.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:paddingBottom="0.0dip"
+                android:paddingTop="0.0dip"
+                android:src="@drawable/topback_selector" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="20.0dip"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/register_mobile_ET"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/ui_mobile_text"
+                android:inputType="textVisiblePassword"
+                android:paddingLeft="10.0dip"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@+id/register_username_ET"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:hint="@string/ui_username_hint"
+                android:paddingLeft="10.0dip"
+                android:visibility="gone"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@+id/register_password_ET"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:hint="@string/ui_password_hint"
+                android:paddingLeft="10.0dip"
+                android:password="true"
+                android:textSize="18.0sp" />
+
+            <EditText
+                android:id="@+id/register_password_confirm_ET"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:hint="@string/ui_repassword_hint"
+                android:paddingLeft="10.0dip"
+                android:password="true"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+        
+        <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="10.0dip"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/checkcode"
+            android:layout_width="wrap_content"
+            android:layout_height="54.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/checkcode_TV"
+            android:layout_weight="4"
+            android:phoneNumber="true"
+            android:hint="请输入验证码"
+            android:maxLength="11"
+            android:textSize="18.0sp" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/checkcode_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="54.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="3"
+            android:background="@drawable/topbutton_selector"
+            android:gravity="center"
+            android:text="获取验证码"
+            android:textColor="#ffffffff"
+            android:textSize="18.0sp" />
+    </RelativeLayout>
+
+        <TextView
+            android:id="@+id/register_register_IV"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:layout_marginTop="30.0dip"
+            android:background="@drawable/topbutton_selector"
+            android:gravity="center"
+            android:padding="0.0dip"
+            android:text="@string/ui_register_text"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/coollive/devspace/coollive/app/src/main/res/layout/activity_register.xml -->

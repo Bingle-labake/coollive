@@ -1,0 +1,393 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:11:5
+	android:label
+		ADDED from AndroidManifest.xml:14:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:12:9
+	android:icon
+		ADDED from AndroidManifest.xml:13:9
+	android:theme
+		ADDED from AndroidManifest.xml:15:9
+activity#com.coollive.launch.CoolActivity
+ADDED from AndroidManifest.xml:16:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:21:13
+	android:label
+		ADDED from AndroidManifest.xml:19:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:18:13
+	android:theme
+		ADDED from AndroidManifest.xml:22:13
+	android:name
+		ADDED from AndroidManifest.xml:17:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:20:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:24:17
+	android:name
+		ADDED from AndroidManifest.xml:24:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:26:17
+	android:name
+		ADDED from AndroidManifest.xml:26:27
+activity#com.coollive.launch.LaunchActivity
+ADDED from AndroidManifest.xml:29:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:33:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:31:13
+	android:theme
+		ADDED from AndroidManifest.xml:34:13
+	android:name
+		ADDED from AndroidManifest.xml:30:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:32:13
+activity#com.coollive.launch.ui.Home
+ADDED from AndroidManifest.xml:35:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:40:13
+	android:label
+		ADDED from AndroidManifest.xml:38:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:37:13
+	android:theme
+		ADDED from AndroidManifest.xml:41:13
+	android:name
+		ADDED from AndroidManifest.xml:36:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:39:13
+activity#com.coollive.launch.ui.ReadyActity
+ADDED from AndroidManifest.xml:43:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:48:13
+	android:label
+		ADDED from AndroidManifest.xml:46:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:45:13
+	android:theme
+		ADDED from AndroidManifest.xml:49:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:47:13
+activity#com.coollive.launch.ui.MyActity
+ADDED from AndroidManifest.xml:51:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:56:13
+	android:label
+		ADDED from AndroidManifest.xml:54:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:53:13
+	android:theme
+		ADDED from AndroidManifest.xml:57:13
+	android:name
+		ADDED from AndroidManifest.xml:52:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:55:13
+activity#com.coollive.launch.ui.ActityInfo
+ADDED from AndroidManifest.xml:59:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:63:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:61:13
+	android:theme
+		ADDED from AndroidManifest.xml:64:13
+	android:name
+		ADDED from AndroidManifest.xml:60:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:62:13
+activity#com.coollive.launch.ui.EditActity
+ADDED from AndroidManifest.xml:65:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:69:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:67:13
+	android:theme
+		ADDED from AndroidManifest.xml:70:13
+	android:name
+		ADDED from AndroidManifest.xml:66:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:68:13
+activity#com.coollive.launch.ui.VideoViewActivity
+ADDED from AndroidManifest.xml:71:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:74:13
+	android:theme
+		ADDED from AndroidManifest.xml:75:13
+	android:name
+		ADDED from AndroidManifest.xml:72:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:73:13
+activity#com.coollive.launch.ui.video.VideoRecordRtmpH264
+ADDED from AndroidManifest.xml:76:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:79:13
+	android:theme
+		ADDED from AndroidManifest.xml:80:13
+	android:name
+		ADDED from AndroidManifest.xml:77:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:78:13
+activity#com.coollive.launch.ui.video.VideoRecordRtmpFLV
+ADDED from AndroidManifest.xml:81:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:84:13
+	android:theme
+		ADDED from AndroidManifest.xml:85:13
+	android:name
+		ADDED from AndroidManifest.xml:82:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:83:13
+activity#com.coollive.launch.ui.settings.UseIntroduction
+ADDED from AndroidManifest.xml:86:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:89:13
+	android:theme
+		ADDED from AndroidManifest.xml:90:13
+	android:name
+		ADDED from AndroidManifest.xml:87:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:88:13
+activity#com.coollive.launch.settings.Setting
+ADDED from AndroidManifest.xml:91:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:96:13
+	android:label
+		ADDED from AndroidManifest.xml:94:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:93:13
+	android:theme
+		ADDED from AndroidManifest.xml:97:13
+	android:name
+		ADDED from AndroidManifest.xml:92:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:95:13
+activity#com.coollive.launch.ui.settings.ShareApp
+ADDED from AndroidManifest.xml:99:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:102:13
+	android:theme
+		ADDED from AndroidManifest.xml:103:13
+	android:name
+		ADDED from AndroidManifest.xml:100:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:101:13
+activity#com.coollive.launch.ui.settings.SettingsEnterpriseAccount
+ADDED from AndroidManifest.xml:104:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:107:13
+	android:theme
+		ADDED from AndroidManifest.xml:108:13
+	android:name
+		ADDED from AndroidManifest.xml:105:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:106:13
+activity#com.coollive.launch.ui.login.ResetPasswd
+ADDED from AndroidManifest.xml:109:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:114:13
+	android:label
+		ADDED from AndroidManifest.xml:112:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:111:13
+	android:theme
+		ADDED from AndroidManifest.xml:115:13
+	android:name
+		ADDED from AndroidManifest.xml:110:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:113:13
+activity#com.coollive.launch.ui.login.Login
+ADDED from AndroidManifest.xml:116:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:120:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:118:13
+	android:theme
+		ADDED from AndroidManifest.xml:121:13
+	android:name
+		ADDED from AndroidManifest.xml:117:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:119:13
+activity#com.coollive.launch.ui.login.Register
+ADDED from AndroidManifest.xml:122:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:127:13
+	android:label
+		ADDED from AndroidManifest.xml:125:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:124:13
+	android:theme
+		ADDED from AndroidManifest.xml:128:13
+	android:name
+		ADDED from AndroidManifest.xml:123:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:126:13
+activity#com.coollive.launch.MainActivity
+ADDED from AndroidManifest.xml:129:9
+	android:label
+		ADDED from AndroidManifest.xml:131:13
+	android:name
+		ADDED from AndroidManifest.xml:130:13
+supports-screens
+ADDED from AndroidManifest.xml:135:5
+	android:resizeable
+		ADDED from AndroidManifest.xml:139:9
+	android:largeScreens
+		ADDED from AndroidManifest.xml:137:9
+	android:anyDensity
+		ADDED from AndroidManifest.xml:136:9
+	android:normalScreens
+		ADDED from AndroidManifest.xml:138:9
+	android:smallScreens
+		ADDED from AndroidManifest.xml:140:9
+permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from AndroidManifest.xml:142:5
+	android:name
+		ADDED from AndroidManifest.xml:142:17
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from AndroidManifest.xml:144:5
+	android:name
+		ADDED from AndroidManifest.xml:144:22
+uses-permission#android.permission.BLUETOOTH
+ADDED from AndroidManifest.xml:145:5
+	android:name
+		ADDED from AndroidManifest.xml:145:22
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from AndroidManifest.xml:146:5
+	android:name
+		ADDED from AndroidManifest.xml:146:22
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from AndroidManifest.xml:147:5
+	android:name
+		ADDED from AndroidManifest.xml:147:22
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from AndroidManifest.xml:148:5
+	android:name
+		ADDED from AndroidManifest.xml:148:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:149:5
+	android:name
+		ADDED from AndroidManifest.xml:149:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:150:5
+	android:name
+		ADDED from AndroidManifest.xml:150:22
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from AndroidManifest.xml:151:5
+	android:name
+		ADDED from AndroidManifest.xml:151:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:152:5
+	android:name
+		ADDED from AndroidManifest.xml:152:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:153:5
+	android:name
+		ADDED from AndroidManifest.xml:153:22
+uses-permission#android.permission.READ_LOGS
+ADDED from AndroidManifest.xml:154:5
+	android:name
+		ADDED from AndroidManifest.xml:154:22
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:155:5
+	android:name
+		ADDED from AndroidManifest.xml:155:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:156:5
+	android:name
+		ADDED from AndroidManifest.xml:156:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:158:5
+	android:name
+		ADDED from AndroidManifest.xml:158:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:159:5
+	android:name
+		ADDED from AndroidManifest.xml:159:22
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:160:5
+	android:name
+		ADDED from AndroidManifest.xml:160:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:161:5
+	android:name
+		ADDED from AndroidManifest.xml:161:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:162:5
+	android:name
+		ADDED from AndroidManifest.xml:162:22
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from AndroidManifest.xml:163:5
+	android:name
+		ADDED from AndroidManifest.xml:163:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:165:5
+	android:name
+		ADDED from AndroidManifest.xml:165:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:166:5
+	android:name
+		ADDED from AndroidManifest.xml:166:22
+uses-permission#android.permission.SEND_SMS
+ADDED from AndroidManifest.xml:168:5
+	android:name
+		ADDED from AndroidManifest.xml:168:22
+uses-permission#android.permission.READ_SMS
+ADDED from AndroidManifest.xml:169:5
+	android:name
+		ADDED from AndroidManifest.xml:169:22
+uses-permission#android.permission.WRITE_SMS
+ADDED from AndroidManifest.xml:170:5
+	android:name
+		ADDED from AndroidManifest.xml:170:22
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from AndroidManifest.xml:171:5
+	android:name
+		ADDED from AndroidManifest.xml:171:22
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:172:5
+	android:name
+		ADDED from AndroidManifest.xml:172:22
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from AndroidManifest.xml:174:5
+	android:name
+		ADDED from AndroidManifest.xml:174:22
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from AndroidManifest.xml:176:5
+	android:name
+		ADDED from AndroidManifest.xml:176:22
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:178:5
+	android:name
+		ADDED from AndroidManifest.xml:178:19
+uses-feature#android.hardware.camera.autofocus
+ADDED from AndroidManifest.xml:179:5
+	android:name
+		ADDED from AndroidManifest.xml:179:19

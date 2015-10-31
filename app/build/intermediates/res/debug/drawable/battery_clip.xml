@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipOrientation="horizontal"
+    android:drawable="@drawable/battery_in"
+    android:gravity="right" />
+<!-- From: file:/Users/coollive/devspace/coollive/app/src/main/res/drawable/battery_clip.xml -->

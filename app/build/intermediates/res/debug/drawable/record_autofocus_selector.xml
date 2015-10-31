@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/record_autofocus_on" />
+    <item android:drawable="@drawable/record_autofocus_off" />
+</selector><!-- From: file:/Users/coollive/devspace/coollive/app/src/main/res/drawable/record_autofocus_selector.xml -->

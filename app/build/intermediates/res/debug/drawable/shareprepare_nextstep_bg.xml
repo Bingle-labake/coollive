@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffff9d77" />
+    <gradient android:startColor="#ff3aaec8" android:endColor="#ff1085a0" android:angle="270.0" />
+    <corners android:radius="5.0px" />
+</shape><!-- From: file:/Users/coollive/devspace/coollive/app/src/main/res/drawable/shareprepare_nextstep_bg.xml -->

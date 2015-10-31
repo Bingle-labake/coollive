@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000"
+    android:orientation="vertical"
+    android:padding="1.0dip" >
+
+    <RelativeLayout
+        android:id="@+id/videoinfo_single_port_thumbpanelRL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000" >
+
+        <ImageView
+            android:id="@+id/videoinfo_single_port_thumbIV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:padding="0.0dip"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/videoinfo_single_port_playiconIV"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_play" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/videoinfo_single_port_timeTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffffff"
+        android:paddingBottom="10.0dip"
+        android:paddingLeft="5.0dip"
+        android:paddingTop="10.0dip"
+        android:text="2013-4-01 11:20"
+        android:textColor="#ff444444"
+        android:textSize="14.0sp" />
+
+</LinearLayout><!-- From: file:/Users/coollive/devspace/coollive/app/src/main/res/layout/videoinfo_single_port.xml -->

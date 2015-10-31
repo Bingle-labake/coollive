@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffeeeeee"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/topbarbg2" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="设 置"
+                    android:textColor="#ff043f76"
+                    android:textSize="25.0dip"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@id/topback_IV"
+                    android:layout_width="60.0dip"
+                    android:layout_height="35.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:paddingBottom="0.0dip"
+                    android:paddingTop="0.0dip"
+                    android:src="@drawable/topback_selector" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="20.0dip"
+                android:padding="0.0dip"
+                android:text="视频设置"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/settings_choose_quality_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/settings_upradius_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:padding="8.0dip" >
+
+                <TextView
+                    android:id="@+id/settings_choose_quality_panel_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5.0dip"
+                    android:text="设置直播视频质量"
+                    android:textColor="#ff777777"
+                    android:textSize="15.0sp" />
+
+                <TextView
+                    android:id="@+id/settings_choose_quality_panel_show_quality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:layout_toRightOf="@id/settings_choose_quality_panel_des"
+                    android:text="176*144"
+                    android:textColor="#ff888888"
+                    android:textSize="15.0sp" />
+
+                <ImageView
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5.0dip"
+                    android:src="@drawable/settings_more_arrow_down" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/settings_choose_quality_panel_des"
+                    android:padding="0.0dip"
+                    android:text="*使用高分辨率时需要较大带宽，建议在wifi连接下使用"
+                    android:textColor="#ff999999"
+                    android:textSize="13.0sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px" />
+
+            <RelativeLayout
+                android:id="@+id/settings_setbps_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/settings_noradius_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:padding="8.0dip" >
+
+                <TextView
+                    android:id="@+id/settings_bps_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="left"
+                    android:padding="0.0dip"
+                    android:text="设置码率"
+                    android:textColor="#ff888888"
+                    android:textSize="15.0sp" />
+            </RelativeLayout> 
+            
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px" />
+            
+            <RelativeLayout
+                android:id="@+id/settings_setrecordtype_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/settings_noradius_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:padding="8.0dip" >
+
+                <TextView
+                    android:id="@+id/settings_recordtype_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="left"
+                    android:padding="0.0dip"
+                    android:text="设置录制类型"
+                    android:textColor="#ff888888"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/settings_setfps_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/settings_noradius_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:padding="8.0dip"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/settings_setfps_panel_fpsTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="left"
+                    android:padding="0.0dip"
+                    android:text="设置帧率"
+                    android:textColor="#ff888888"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/settings_noradius_item_selector"
+                android:padding="8.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="left"
+                    android:padding="0.0dip"
+                    android:text="是否使用实时模式"
+                    android:textColor="#ff888888"
+                    android:textSize="15.0sp" />
+
+                <CheckBox
+                    android:id="@+id/settings_userealtimeCB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:checked="false" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/settings_noradius_item_selector"
+                android:padding="8.0dip" >
+
+                <TextView
+                    android:id="@+id/settings_setuse10fps_panel_fpsTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="left"
+                    android:padding="0.0dip"
+                    android:text="是否使用增强算法"
+                    android:textColor="#ff888888"
+                    android:textSize="15.0sp" />
+
+                <CheckBox
+                    android:id="@+id/settings_setuse10fps_panel_fpsCB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:checked="false" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/settings_downradius_item_selector"
+                android:padding="8.0dip" >
+
+                <TextView
+                    android:id="@id/settings_setfps_panel_fpsTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="left"
+                    android:padding="0.0dip"
+                    android:text="是否使用蓝牙音频"
+                    android:textColor="#ff888888"
+                    android:textSize="15.0sp" />
+
+                <CheckBox
+                    android:id="@+id/settings_useblutoothCB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:checked="false" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="20.0dip"
+                android:text="消息中心"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/settings_notifycenter_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="5.0dip"
+                android:background="@drawable/settings_allradius_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="horizontal"
+                android:padding="8.0dip"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="飞享的消息中心"
+                    android:textColor="#ff777777"
+                    android:textSize="15.0sp" />
+
+                <ImageView
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/settings_more_arrow" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="20.0dip"
+                android:text="我的账户"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px" />
+
+            <RelativeLayout
+                android:id="@+id/settings_username_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/settings_upradius_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:padding="8.0dip" >
+
+                <TextView
+                    android:id="@+id/settings_usernameTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="username"
+                    android:textColor="#ff777777"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px" />
+
+            <RelativeLayout
+                android:id="@+id/settings_logout_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:background="@drawable/settings_downradius_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:padding="8.0dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="注销登录"
+                    android:textColor="#ff777777"
+                    android:textSize="15.0sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="20.0dip"
+                android:text="企业号码"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/settings_enterprise_account_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="5.0dip"
+                android:background="@drawable/settings_allradius_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="horizontal"
+                android:padding="8.0dip"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/settings_enterprisenum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="没有账号"
+                    android:textColor="#ff777777"
+                    android:textSize="15.0sp" />
+
+                <ImageView
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/settings_more_arrow" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="20.0dip"
+                android:text="邀请好友"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/settings_invite_friend_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="5.0dip"
+                android:background="@drawable/settings_allradius_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="horizontal"
+                android:padding="8.0dip"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="邀请好友"
+                    android:textColor="#ff777777"
+                    android:textSize="15.0sp" />
+
+                <ImageView
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/settings_more_arrow" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="20.0dip"
+                android:text="使用说明"
+                android:textColor="#ff000000"
+                android:textSize="18.0sp"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/settings_use_introduce_panel"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="5.0dip"
+                android:background="@drawable/settings_allradius_item_selector"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="horizontal"
+                android:padding="8.0dip"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="使用说明"
+                    android:textColor="#ff777777"
+                    android:textSize="15.0sp" />
+
+                <ImageView
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/settings_more_arrow" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
