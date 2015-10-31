@@ -1,3 +1,0 @@
-Exception in thread "Thread-1" java.lang.NullPointerException
-        at cn.com.saiku.upload.UploadThread.cleanSubThread(UploadThread.java:86)
-        at cn.com.saiku.upload.UploadThread.run(UploadThread.java:60)

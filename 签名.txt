@@ -1,5 +1,0 @@
-[2014-12-15 11:24:06 - CoolLive] Launch canceled!
-[2014-12-15 11:26:03 - CoolLive] New keystore D:\workspace_php\saiku2.0\branches\CoolLive\bin\CoolLive.apk has been created.
-[2014-12-15 11:26:03 - CoolLive] Certificate fingerprints:
-[2014-12-15 11:26:03 - CoolLive]   MD5 : 2D:7E:62:83:61:FB:40:57:61:DD:BA:58:FC:30:AF:93
-[2014-12-15 11:26:03 - CoolLive]   SHA1: 59:41:99:89:21:4A:23:D9:53:CA:45:7D:DE:AE:2E:A1:24:1E:4D:ED
